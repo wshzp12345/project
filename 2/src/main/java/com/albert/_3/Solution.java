@@ -16,12 +16,8 @@ public class Solution {
      * @return
      */
     public int lengthOfLongestSubstring(String s) {
-        int start = 0, end = 0, length = 0;
-        char[] ss = s.toCharArray();
-        while (end < s.length()) {
-
-        }
-
-        return 0;
+       return 0;
     }
+
+
 }

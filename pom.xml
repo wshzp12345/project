@@ -19,5 +19,12 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <start-class>com.alibaba.configcenter.ConfigCenterMain</start-class>
+        <config.center.home>${project.basedir}</config.center.home>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
 
 </project>
